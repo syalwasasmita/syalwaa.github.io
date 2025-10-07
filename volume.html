@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menghitung Volume Kotak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1e69de;
+    }
+    #hasil {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #3498db;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Menghitung Volume Kotak</h2>
+
+    <input type="number" id="panjang" placeholder="Masukkan panjang">
+    <br>
+    <input type="number" id="lebar" placeholder="Masukkan lebar">
+    <br>
+    <input type="number" id="tinggi" placeholder="Masukkan tinggi">
+    <br>
+    <button onclick="hitungVolume()">Hitung</button>
+
+    <p id="hasil"></p>
+
+    <!-- Tombol kembali ke beranda -->
+    <a href="index.html">← Kembali ke Beranda</a>
+  </div>
+
+  <script>
+    function hitungVolume() {
+      let p = document.getElementById("panjang").value;
+      let l = document.getElementById("lebar").value;
+      let t = document.getElementById("tinggi").value;
+
+      if (p && l && t) {
+        let volume = p * l * t;
+        document.getElementById("hasil").innerText = 
+          "Volume kotak adalah: " + volume;
+      } else {
+        document.getElementById("hasil").innerText = 
+          "Mohon isi semua nilai!";
+      }
+    }
+  </script>
+
+</body>
+</html>

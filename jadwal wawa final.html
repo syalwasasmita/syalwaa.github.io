@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Pelajaran XII DKV 2</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fbd3e9, #bbd2c5);
+      padding: 30px;
+      text-align: center;
+    }
+    .schedule-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      overflow: hidden;
+    }
+    .header {
+      background: #f7d9e5;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header h2 {
+      margin: 0;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 28px;
+      color: #333;
+    }
+    .input-box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+    }
+    .input-box input {
+      margin-top: 4px;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+    }
+    th {
+      background: #faf1f6;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #333;
+    }
+    tr:nth-child(even) td {
+      background: #fdfdfd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="schedule-container">
+    <div class="header">
+      <div class="input-box">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+      </div>
+      <h2>Jadwal Pelajaran</h2>
+      <div class="input-box">
+        <label>Class:</label>
+        <input type="text" placeholder="Enter class">
+      </div>
+    </div>
+
+    <table>
+      <tr>
+        <th>Waktu</th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <th>Rabu</th>
+        <th>Kamis</th>
+        <th>Jumat</th>
+      </tr>
+      <tr>
+        <td>07:00 - 07:40</td>
+        <td>Upacara</td><td>Ppkn</td><td>Bahasa Inggris</td><td>Kejuruan 3</td><td>Pengajian</td>
+      </tr>
+      <tr>
+        <td>07:40 - 08:20</td>
+        <td>Kejuruan 1</td><td>Ppkn</td><td>Bahasa Inggris</td><td>Kejuruan 3</td><td>PKWH</td>
+      </tr>
+      <tr>
+        <td>08:20 - 09:00</td>
+        <td>Kejuruan 1</td><td>Kejuruan 2</td><td>Bahasa Inggris</td><td>Kejuruan 3</td><td>PKWH</td>
+      </tr>
+      <tr>
+        <td>09:00 - 09:40</td>
+        <td>Kejuruan 1</td><td>Kejuruan 2</td><td>Bahasa Inggris</td><td>Bahasa Indonesia</td><td>PKWH</td>
+      </tr>
+      <tr>
+        <td>09:40 - 10:00</td>
+        <td>Istirahat</td><td>Istirahat</td><td>Istirahat</td><td>Istirahat</td><td>Istirahat</td>
+      </tr>
+      <tr>
+        <td>10:00 - 10:40</td>
+        <td>Kejuruan 1</td><td>Matematika</td><td>Kejuruan 3</td><td>Agama Islam</td><td>Bahasa Indonesia</td>
+      </tr>
+      <tr>
+        <td>10:40 - 11:20</td>
+        <td>Kejuruan 2</td><td>Matematika</td><td>Kejuruan 3</td><td>Agama Islam</td><td>Bahasa Indonesia</td>
+      </tr>
+      <tr>
+        <td>11:20 - 12:00</td>
+        <td>Kejuruan 2</td><td>Matematika</td><td>Kejuruan 3</td><td>Agama Islam</td><td>Istirahat</td>
+      </tr>
+      <tr>
+        <td>12:00 - 12:45</td>
+        <td>Istirahat</td><td>Istirahat</td><td>Istirahat</td><td>Istirahat</td><td>Sholat Jumat</td>
+      </tr>
+      <tr>
+        <td>12:45 - 13:25</td>
+        <td>Kejuruan 2</td><td>Mapel Pilihan DKV</td><td>Kejuruan 1</td><td>Kejuruan 1</td><td>Jumat Bersih</td>
+      </tr>
+      <tr>
+        <td>13:25 - 14:05</td>
+        <td>Kejuruan 2</td><td>Mapel Pilihan DKV</td><td>Kejuruan 1</td><td>Kejuruan 1</td><td>Estrakurikuler</td>
+      </tr>
+      <tr>
+        <td>14:05 - 14:45</td>
+        <td>Kejuruan 2</td><td>Mapel Pilihan DKV</td><td>PKWH</td><td>Bahasa Korea</td><td>Ekstrakurikuler</td>
+      </tr>
+      <tr>
+        <td>14:45 - 15:25</td>
+        <td>Kejuruan 2</td><td>Mapel Pilihan DKV</td><td>PKWH</td><td>Bahasa Korea</td><td>Ekstrakurikuler</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
