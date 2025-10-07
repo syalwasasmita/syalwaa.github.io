@@ -179,3 +179,113 @@
 
 </body>
 </html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - Syalwa Sasmita˚.🎀༘⋆</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #bbdefb);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      background-color: #ffc0cb;
+      color: white;
+      padding: 20px 0;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 15px;
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #0d47a1;
+      border-bottom: 2px solid #fe6074;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #fe6074;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #ffc0cb;
+      color: #0d47a1;
+    }
+    footer {
+      text-align: center;
+      background-color: #ffc0cb;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⋆౨ৎ˚⟡ Syalwa Sasmita 𝜗𝜚˚⋆</h1>
+    <p>Welcome to My Personal Page</p>
+    <img src="C:\Users\MM-02\Pictures\Saved Pictures\wawa.jpeg">
+  </header>
+
+  <section>
+    <h2>About Me!</h2>
+    <p>Ola! Perkenalkan nama saya <strong>Syalwa Sasmita</strong>. Saya adalah seorang pelajar asal sekolah SMKN 1 Tangerang⋆. 𐙚 ˚ .
+
+    Selain itu saya suka mempelajari hal-hal baru. 
+    Dengan kepribadian saya yang suka mempelajari hal baru saya harap saya bisa mengembangkan ide yang saya miliki.</p>
+  </section>
+
+  <section>
+    <h2>Hobi</h2>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Hobi</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Menonton film 🎞️</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Tidur 😴</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Memasak 🍲</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Cita-Cita</h2>
+    <p>Saya memiliki cita-cita untuk masuk perguruan tinggi ISI Jogja, dan juga saya meiliki cita-cita mempunyai kos-kosan.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Syalwa Sasmita𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼🎀</p>
+  </footer>
+
+</body>
+</html>
