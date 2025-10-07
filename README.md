@@ -289,3 +289,219 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitung Luas Persegi Panjang</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="card shadow-lg rounded-4">
+          <div class="card-body p-4">
+            <h3 class="card-title text-center mb-4">Hitung Luas Persegi Panjang</h3>
+            <form id="luasForm">
+              <div class="mb-3">
+                <label for="panjang" class="form-label">Panjang</label>
+                <input type="number" class="form-control" id="panjang" placeholder="Masukkan panjang" required>
+              </div>
+              <div class="mb-3">
+                <label for="lebar" class="form-label">Lebar</label>
+                <input type="number" class="form-control" id="lebar" placeholder="Masukkan lebar" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Hitung</button>
+            </form>
+
+            <div class="mt-4 text-center">
+              <h5>Hasil:</h5>
+              <p id="hasil" class="fw-bold fs-4 text-success">-</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("luasForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const panjang = parseFloat(document.getElementById("panjang").value);
+      const lebar = parseFloat(document.getElementById("lebar").value);
+
+      if (panjang > 0 && lebar > 0) {
+        const luas = panjang * lebar;
+        document.getElementById("hasil").textContent = luas;
+      } else {
+        document.getElementById("hasil").textContent = "Masukkan angka yang valid!";
+      }
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Rahasia Cintaku – Kahitna | Chord & Lirik</title>
+  <style>
+    body {
+      background: #ee687f;
+      color: #f5f5f5;
+      font-family: monospace;
+      white-space: pre;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #b81466;
+      margin-bottom: 20px;
+    }
+    .chord {
+      color: #2c2cf6;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Rahasia Cintaku – Kahitna</h1>
+
+<span class="chord">A                D        E</span>
+Setiap di dekatmu hatiku meresah  
+<span class="chord">A                   D            E</span>
+Sesaat di sampingmu seakan kau milikku  
+<span class="chord">D            C#m</span>
+Kusadari aku tak seharusnya  
+<span class="chord">Bm               E</span>
+Terbawa perasaan  
+
+<span class="chord">A              D</span>
+Dan aku mencintaimu  
+<span class="chord">Bm                         E</span>
+Sungguh sungguh tanpa kau tahu  
+<span class="chord">C#m            F#</span>
+Tersimpan dalam hatiku  
+<span class="chord">Bm        E              A</span>
+Selamanya ini jadi rahasia cintaku  
+
+<span class="chord">A                     D         E</span>
+Sering aku meragu harus ku melangkah  
+<span class="chord">A                    D        E</span>
+Terkadang kau beri harapan, kadang terasa jauh  
+<span class="chord">D              C#m</span>
+Pedihnya hati bila ini  
+<span class="chord">Bm               E</span>
+Hanya terbawa perasaan  
+
+<span class="chord">A              D</span>
+Dan aku mencintaimu  
+<span class="chord">Bm                         E</span>
+Sungguh sungguh tanpa kau tahu  
+<span class="chord">C#m            F#</span>
+Tersimpan dalam hatiku  
+<span class="chord">Bm        E              A</span>
+Selamanya ini jadi rahasia cintaku  
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menghitung Volume Kotak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+    input {
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1e69de;
+    }
+    #hasil {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #3498db;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Menghitung Volume Kotak</h2>
+
+    <input type="number" id="panjang" placeholder="Masukkan panjang">
+    <br>
+    <input type="number" id="lebar" placeholder="Masukkan lebar">
+    <br>
+    <input type="number" id="tinggi" placeholder="Masukkan tinggi">
+    <br>
+    <button onclick="hitungVolume()">Hitung</button>
+
+    <p id="hasil"></p>
+
+    <!-- Tombol kembali ke beranda -->
+    <a href="index.html">← Kembali ke Beranda</a>
+  </div>
+
+  <script>
+    function hitungVolume() {
+      let p = document.getElementById("panjang").value;
+      let l = document.getElementById("lebar").value;
+      let t = document.getElementById("tinggi").value;
+
+      if (p && l && t) {
+        let volume = p * l * t;
+        document.getElementById("hasil").innerText = 
+          "Volume kotak adalah: " + volume;
+      } else {
+        document.getElementById("hasil").innerText = 
+          "Mohon isi semua nilai!";
+      }
+    }
+  </script>
+
+</body>
+</html>
